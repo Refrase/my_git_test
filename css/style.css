@@ -1,8 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-	background: green;
+	background: #efefff;
 }
 
 h1 {
 	font-size: 2em;
 	line-height: 1.5em;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	background: lightblue;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 200px;
+	border-radius: 4px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	border-radius: 50%;
+	background: #fff;
+	transition: 0.3s ease-in-out all;
+	cursor: pointer;
+}
+
+.box:hover {
+	transform: translate3d(0, -30px, 0);
 }
