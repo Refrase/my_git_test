@@ -1,0 +1,3 @@
+Ret godt projekt!
+
+Dette er en sjov test for at forstå git...
